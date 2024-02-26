@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <link rel="stylesheet" href="../static/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <ul class="menu">
+                <li>Chips Market</li>
+                <li>Accueil</li>
+                <li>Bonjour {{name}}</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="commande">
+                <div class="lien_commande">
+                    <form action="http://localhost:5000/commande" method="post">
+                        <button type="submit">Commander</button>
+                    </form>
+                </div>
+                <div class="txt_commande">
+                    <p>
+                        Bonjour et bienvenue ! Cliquez sur le lien ci-dessous pour accéder à notre page de commande sécurisée. 
+                        Là, vous pourrez sélectionner les articles que vous souhaitez acheter et finaliser votre achat en toute simplicité. 
+                        Nous sommes impatients de vous servir !
+                    </p>
+                </div>
+                <div class="img_commande">
+                    <img src="../static/chips1.png" alt="Chips" height="256">
+                </div>
+            </section>
+            <section class="notation">
+                <div class="notation_img">
+                    <img src="../static/note.png" alt="une image" height="256">
+                </div>
+                <div class="txt_notation">
+                    <p>
+                        Votre avis compte énormément pour nous ! 
+                        Si vous avez apprécié votre expérience avec nous, nous vous serions extrêmement reconnaissants de prendre quelques instants pour laisser une note. 
+                        Votre feedback nous aide à améliorer nos services et à mieux répondre à vos besoins. De plus, cela aide également d'autres personnes à découvrir ce que nous avons à offrir. 
+                        Merci d'avance pour votre précieuse contribution !
+                    </p>
+                </div>
+                <div class="bouton_notation">
+                    <form action="http://localhost:5000/noter" method="post">
+                        <button type="submit">Noter</button>
+                    </form>
+                </div>
+            </section>
+        </article>
+
+
+
+        
+    </main>
+</body>
+</html>

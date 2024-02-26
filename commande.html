@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <link rel="stylesheet" href="../static/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <ul class="menu">
+                <li>Chips Market</li>
+                <li>Commande</li>
+                <li>Bonjour {{name}}</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+
+        <form action="http://localhost:5000/paiement">
+            <div class="produit_list">
+                <div class="row_produit">
+                    <div class="produit">
+                        <p>Original</p>
+                        <img src="../static/original.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="original">
+                    </div>
+                    <div class="prefere">
+                        <p>Bretonne</p>
+                        <img src="../static/bretonne.png" alt="" height="256">
+                        <p>Prix : 2€99</p>
+                        <input type="number" max="20" min="0" name="bretonne">
+                    </div>
+                </div>
+                <div class="row_produit">
+                    <div class="produit">
+                        <p>Sel et Vinaigre</p>
+                        <img src="../static/seletvinaigre.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="seletvinaigre">
+                    </div>
+                    <div class="produit">
+                        <p>Paprika</p>
+                        <img src="../static/paprika.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="paprika">
+                    </div>
+                </div>
+                <div class="row_produit">
+                    <div class="produit">
+                        <p>Sauce pomme-frite</p>
+                        <img src="../static/pommefrite.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="saucepommefrite">
+                    </div>
+                    <div class="produit">
+                        <p>Chèvre Piment</p>
+                        <img src="../static/chevrepiment.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="chevrepiment">
+                    </div>
+                </div>
+                <div class="row_produit">
+                    <div class="produit">
+                        <p>Tartiflette</p>
+                        <img src="../static/tartiflette.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="tartiflette">
+                    </div>
+                    <div class="produit">
+                        <p>Tomate et vinaigre balsamique</p>
+                        <img src="../static/tomatevinaigre.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="tomatevinaigre">
+                    </div>
+                </div>
+                <div class="row_produit">
+                    <div class="produit">
+                        <p>Poulet Braisé</p>
+                        <img src="../static/poulet.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="poulet">
+                    </div>
+                    <div class="produit">
+                        <p>Chili</p>
+                        <img src="../static/chili.png" alt="" height="256">
+                        <p>Prix : 1€99</p>
+                        <input type="number" max="20" min="0" name="chili">
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Passer au Paiement</button>
+        </form>
+    </main>
+</body>
+</html>

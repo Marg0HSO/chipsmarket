@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-color: #e0fcfc;
+}
+
+.login_page{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.login{
+    background-color: #253337;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #e0fcfc;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.login input{
+    padding: 20px 40px;
+    margin: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #253337;
+    color: #e0fcfc;
+    margin: 0;
+    padding: 20px 5px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.menu li{
+    list-style-type: none;
+    min-width: 120px;
+}
+
+.commande{
+    background-color: #C2E0E3;
+    margin: 0;
+    padding: 100px 5px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+}
+
+.lien_commande button{
+    color: #e0fcfc;
+    background-color: #253337;
+    padding: 20px 50px;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.lien_commande button:hover{
+    color: #e0fcfc;
+    background-color: #5c6c73;
+    border-color: #000;
+}
+
+.txt_commande{
+    color: #253337;
+    font-family: "Montserrat", sans-serif;
+    max-width: 600px;
+}
+
+.notation{
+    background-color: #9DB5C0;
+    margin: 0;
+    padding: 100px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.notation_txt{
+    max-width: 200px;
+}
+
+.bouton_notation button{
+    color: #e0fcfc;
+    background-color: #253337;
+    padding: 20px 50px;
+    border-radius: 20px;
+    transition: all 1s;
+    margin-right: 50px;
+}
+
+.bouton_notation button:hover{
+    color: #e0fcfc;
+    background-color: #5c6c73;
+    border-color: #000;
+}
+
+.produit_list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row_produit{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
